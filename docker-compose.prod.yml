@@ -21,17 +21,17 @@ services:
       # - postgres
       - mongo
 
-  # postgres:
-  #   container_name: postgres
-  #   image: postgres
-  #   env_file:
-  #     - ./server/.env
-  
-  mongo:
-    container_name: mongo
-    image: mongo
+  postgres:
+    container_name: postgres
+    image: postgres
     env_file:
       - ./server/.env
+  
+  # mongo:
+  #   container_name: mongo
+  #   image: mongo
+  #   env_file:
+  #     - ./server/.env
 
 volumes:
   run_vol:
