@@ -12,7 +12,7 @@ To get a local copy of this template up and running on your machine, follow thes
 `sudo sh get-docker.sh`
 
 ### Installation
-- Clone the repo `git clone https://github.com/akshat2602/django-nextjs-template.git`
+- Clone the repo `git clone https://github.com/PICT-ACM-Student-Chapter/Node-Express-Boilerplate.git`
 - Change the current directory to the template `cd node-express-boilerplate`
 #### Development Environment
 - To get started with development first build the dev containers using the following command `docker-compose -f docker-compose.dev.yml build`
