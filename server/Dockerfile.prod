@@ -1,7 +1,4 @@
-FROM node:16-alpine3.14
-
-WORKDIR /usr/src/app
-COPY package*.json ./
-RUN npm install --production
-
+FROM node:16-alpine3.14 as builder
+WORKDIR /app
 COPY . .
+# ENTRYPOINT ["npm", "run", "dev"]

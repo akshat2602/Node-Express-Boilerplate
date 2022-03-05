@@ -16,7 +16,7 @@ services:
     env_file:
       - ./server/.env.dev
     command: >
-      sh -c "NODE_ENV=dev npm run dev"
+      sh -c "npm install && NODE_ENV=dev npm run dev"
     depends_on:
       - postgres
       # - mongo
