@@ -18,8 +18,8 @@ services:
     command: >
       sh -c "npm start"
     depends_on:
-      # - postgres
-      - mongo
+      - postgres
+      # - mongo
 
   postgres:
     container_name: postgres

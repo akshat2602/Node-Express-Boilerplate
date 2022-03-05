@@ -18,8 +18,8 @@ services:
     command: >
       sh -c "NODE_ENV=dev npm run dev"
     depends_on:
-      # - postgres
-      - mongo
+      - postgres
+      # - mongo
 
   postgres:
     container_name: postgres
