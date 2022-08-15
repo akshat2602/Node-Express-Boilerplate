@@ -3,7 +3,7 @@
 # Node-Express-Boilerplate!
 This is a basic starter template for a Node.js backend app with basic dependencies installed already. The app is dockerised with MongoDB and PostgreSQL support out-of-the-box.
 
-<a href="https://www.codefactor.io/repository/github/akshat2602/Node-Express-Boilerplate/overview/master" target="_blank"> <img src="https://img.shields.io/codefactor/grade/github/akshat2602/Node-Express-Boilerplate?style=flat-square" /> </a>
+<a href="https://www.codefactor.io/repository/github/akshat2602/Node-Express-Boilerplate/overview/master" target="_blank"> <img src="https://img.shields.io/codefactor/grade/github/akshat2602/node-express-boilerplate?style=flat-square" /> </a>
 <a href="https://github.com/akshat2602/Node-Express-Boilerplate/blob/master/LICENSE" target="_blank"> <img src="https://img.shields.io/github/license/akshat2602/Node-Express-Boilerplate?style=flat-square" /> </a>
 <a href="https://github.com/akshat2602/Node-Express-Boilerplate" target="_blank"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/akshat2602/Node-Express-Boilerplate?style=flat-square"> </a>
 
