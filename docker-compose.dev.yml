@@ -26,6 +26,8 @@ services:
     image: postgres
     env_file:
       - ./server/.env.dev
+    volumes:
+      - ./server/db/init.sql:/docker-entrypoint-initdb.d/create_tables.sql
   
   # mongo:
   #   container_name: mongo
